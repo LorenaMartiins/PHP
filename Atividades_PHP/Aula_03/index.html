@@ -1,0 +1,49 @@
+<html>
+
+    <head>
+        <title>Cadastro</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo_form.css">
+        <script src="js/validacao.js"></script>
+        <script src="js/mascara.js"></script>
+    </head>    
+
+    <body>
+        <div class="container">
+            <div class="form_box">
+                <form action="php/processo.php" method="post">
+
+                    <div class="titulo_box">
+                        <h1>Cadastro</h1>
+                    </div>
+
+                    <span>
+                        <label>Nome</label>
+                        <input type="text" id="i_nome" name="i_nome" required>
+                    </span>
+
+                    <span>
+                        <label>E-mail</label>
+                        <input type="text" id="i_email" name="i_email" required>
+                    </span>
+
+                    <span>
+                        <label>Telefone</label>
+                        <input id="i_tel" name="i_tel" maxlength="15" onkeypress="mascara(this, telefone);" required>
+                    </span>
+
+                    <span>
+                        <label>CPF</label>
+                        <input id="i_cpf" name="i_cpf" maxlength="14" onkeypress="mascara(this, cpf);" required>
+                    </span>
+
+                    <span>
+                        <input type="submit" value="Cadastrar" class="btt_form" onclick="validacao();">
+                    </span>
+
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

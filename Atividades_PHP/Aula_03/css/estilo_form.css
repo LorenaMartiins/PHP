@@ -1,0 +1,56 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  display: flex;
+  background-color: lightskyblue;
+  height: 100%;
+}
+
+.form_box{
+  margin: auto;
+  width: max-content;
+  align-self: center;
+  background-color:white;
+}
+
+span{
+  display: block;
+  margin: 10px;
+}
+
+span label{
+  display: block;
+}
+
+.titulo_box{
+  text-align: center;
+  background-color: cornflowerblue;
+  padding: 2px;
+  color: white;
+}
+
+#i_nome, #i_email, #i_tel, #i_cpf{
+  width: 250px;
+  height:30;
+  border: 1px solid cornflowerblue;
+}
+
+.btt_form{
+  cursor: pointer;
+  width: 250px;
+  height: 40px;
+  font-weight: bold;
+  border: 2px solid cornflowerblue;
+  color:Cornflowerblue;
+  background-color:white;
+  margin-top: 20px;
+}
+
+.btt_form:hover{
+  transition:0.5s;
+  color:white;
+  background-color:cornflowerblue;
+}
