@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Nova tarefa</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/es_form.css">
+    <script src="js/valid_usuario.js"></script>
+  </head>
+
+  <body>
+    <form action="" method="">
+      <div class="form_box">
+        <h1>Nova tarefa</h1>
+
+        <label>Título</label>
+        <input type="text" name="i_titulo" class="i_text" required>
+        
+        <label>Descrição</label>
+        <textarea name="i_descrição" cols="30" rows="10" class="i_area"></textarea>
+
+        <label> Status da tarefa</label>
+        <select name="i_status">
+          <option value=""></option>
+          <option value="P">Pendente</option>
+          <option value="A">Em andamento</option>
+          <option value="C">Conclúido</option>
+        </select>
+
+        <input type="submit" value="Criar tarefa" class="btt_form">
+      </div> 
+    </form>
+  </body>
+</html>

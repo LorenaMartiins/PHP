@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  font-family:'Poppins' , sans-serif;
+}
+
+:root{
+  --bg_site: #A0CFD3;
+  --bg_formbox: #D6D6D6;
+  --bg_erro_box:#FA3F3F;
+  
+  --light_text: #FFFFFF;
+ /* --dark_text: ;*/
+
+  --h1_color: #e76f51;
+
+  --btt_normal: #011C27;
+  --btt_hover: #255957;
+}

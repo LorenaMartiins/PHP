@@ -1,0 +1,75 @@
+@import url("es_global.css");
+
+body{
+  padding: 0;
+  margin: 0;
+  background: var(--bg_site);
+}
+
+.form_box{
+  margin: 100px auto;
+  padding: 20px;
+  background:var(--bg_formbox);
+  width: max-content;
+}
+
+#erro_tipo, #erro_tamanho{
+    display: none;
+    background-color: salmon;
+    color: var(--light_text);
+    padding: 5px;
+    text-align: center;
+}
+
+.form_box input, select{
+  width: 310px;
+  height: 30px;
+  border: none ;
+}
+
+.form_box h1{
+  color: var(--h1_color);
+  text-align:center;
+  text-transform: uppercase;
+  font-size:30px;
+}
+
+.form_box p{
+  text-align:center;
+}
+
+.form_box p a{
+  text-decoration:none;
+  color:var(--h1_color);
+}
+
+.form_box a{
+  text-decoration:none;
+  color:var(--h1_color);
+}
+
+.btt_form{
+  cursor: pointer;
+  border: none;
+  background: var(--btt_normal);
+  color: var(--light_text);
+  text-transform:uppercase;
+  border-radius:50px;
+}
+
+.btt_form:hover{
+  transition: 0.5s;
+  background: var(--btt_hover);
+}
+
+/*tarefa*/
+
+.form_box input, select, textarea{
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form_box textarea{
+  resize: none;
+  width: 310px;
+}

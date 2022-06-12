@@ -1,0 +1,25 @@
+h1{
+  margin-left: 200px;
+}
+
+form{
+  margin: 50px;
+}
+
+ a{
+  text-decoration: none;
+  margin-left: 50px;
+  color: cadetblue;
+}
+
+#bottom{
+  color: white;
+  border: none;
+  background: cornflowerblue;
+  width:100px;
+  height: 30px;
+}
+
+body{
+  background: #f0f0f0;
+}

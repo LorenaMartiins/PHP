@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Cadastro de usuário</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/es_form.css">
+    <script src="js/valid_usuario.js"></script>
+  </head>
+
+  <body>
+    <form action="php/cadastro.php" method="post" enctype="multipart/form-data">
+      <div class="form_box">
+        <h1>Novo cadastro</h1>
+
+        <label>Nome</label>
+        <input type="text" name="i_nome" class="i_text" required>
+        
+        <label>Sobrenome</label>
+        <input type="text" name="i_sobrenome" class="i_text" required>
+        
+        <label>Nome de usuário</label>
+        <input type="text" name="i_usuario" class="i_text" required>
+
+        <label>Senha</label>
+        <input type="password" name="i_senha" class="i_text" required>
+
+        
+
+      
+
+        <div class="erro_box">
+          O arquivo não é uma imagem!
+        </div>
+
+        <label>Foto</label>
+        <input type="file" name="i_foto" id="i_foto" class="i_file" required>
+
+        <input type="submit" value="Cadastrar" class="btt_form" onclick="validacao();">
+
+        <div class="link_box">
+          <a href="index.html">Voltar</a>
+        </div>
+        
+      </div>
+    </form>
+  </body>
+</html>
