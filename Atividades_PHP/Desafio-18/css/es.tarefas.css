@@ -1,0 +1,73 @@
+@import url("es_global.css");
+
+body {
+  background-image: url("../img/bod-cad.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+table{
+    margin: 100px auto;
+    text-align: center;
+    border-spacing: 0px;
+    background: var(--bg_formbox);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+table td{
+    min-width: 120px;
+    max-width: 500px;
+    word-break: break-all;
+    padding: 5px;
+    margin: 0px;
+}
+
+.item_notes td{
+    border: 1px solid var(--border);
+    font-size: 18px;
+}
+
+.title_notes td{
+    font-size: 20px;
+    background-color: var(--green-light-2);
+    color: var(--h1-color);
+    border: 1px solid rgb(9, 90, 50);
+}
+
+.title_notes a{
+    color: var(--bottom-1);
+    text-decoration: none;
+}
+
+#editar a{
+  text-decoration: none;
+  color: var(--green-light);
+}
+
+#deletar a{
+  text-decoration: none;
+  color: var(--bg-erro);
+}
+
+.super{
+    background-color: var(--bg-super);
+    color: var(--color-light);
+    font-size: 15px;
+}
+
+.impor{
+    background-color: var(--bg-impor);
+    color: var(--color-light);
+}
+
+.cons{
+    background-color: var(--bg-cons);
+    color: var(--color-dark);
+}
+
+.dia{
+    background-color: var(--bg-dia);
+    color: var(--color-light);
+}

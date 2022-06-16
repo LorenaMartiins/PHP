@@ -1,0 +1,26 @@
+@import url("es_global.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--green-light);
+}
+
+.box{
+  margin: 100px auto;
+  margin-left: 500px;
+  width: 600px;
+  background: var(--bottom-2);
+  padding: 10px;
+  text-align: center;
+  border-radius:20px;
+}
+
+.box h1{
+  color: var(--color-light);
+}
+
+.box a{
+  text-decoration: none;
+  color: var(--green-light-2);
+}

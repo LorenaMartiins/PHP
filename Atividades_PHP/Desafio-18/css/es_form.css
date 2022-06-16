@@ -1,0 +1,220 @@
+@import url("es_global.css");
+
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--bg_site);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.img{
+  margin-right: 50px;
+}
+
+.img img{
+  width: 595.55px;
+  height: 617.61px;
+}
+
+.form_box{
+  width: 461px;
+  height: 515px;
+  background: var(--bg_formbox);
+  border-radius: 15px;
+  display:flex;
+  flex-direction: column;
+  margin: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form_box h1{
+  width: 106px;
+  height: 60px;
+  text-align: center;
+  color: var(--h1-color);
+  margin-left: 175px;
+}
+
+.form_box input {
+  margin:29px;
+  padding: 8px;
+  width: 400px;
+  border: 1px solid var(--border);
+  background: var(--color-input);
+}
+
+
+.form_box label{
+  margin-left: 30px;
+  margin-bottom: -25px;
+}
+
+.form_box .btt_form{
+  width: 239px;
+  height: 59px;
+  border: none;
+  margin-left: 106px;
+  background: var(--bottom-1);
+  color: var(--color-light);
+  font-size: 25px;
+  font-weight: 400;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form_box .traco{
+  border: 1px solid var(--color-dark);
+  width: 375px;
+  margin-left: 50px;
+}
+
+.form_box p{
+  text-align: center;
+}
+
+.form_box p a{
+  text-decoration: none;
+  color: var(--green-light);
+}
+
+.btt_form:hover{
+  transition: 0.5s;
+  background: var(--bottom-hover-1);
+}
+
+/* Cadastro*/
+
+.form_box-cadastro{
+  width: 461px;
+  height: 650px;
+  background: var(--bg_formbox);
+  border-radius: 15px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.container-cad{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+.form_box-cadastro h1{
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  color: var(--h1-color);
+  margin-left: 100px;
+}
+
+.form_box-cadastro input, .form_box-tarefa input, select {
+  margin:29px;
+  padding: 8px;
+  width: 400px;
+  border: 1px solid var(--border);
+  background: var(--color-input);
+}
+
+
+.form_box-cadastro label, .form_box-tarefa label{
+  margin-left: 30px;
+  margin-bottom: -25px;
+}
+
+.form_box-cadastro .btt_form-cad{
+  width: 239px;
+  height: 100px;
+  border: none;
+  margin-left: 106px;
+  background: var(--bottom-2);
+  color: var(--color-light);
+  font-size: 25px;
+  font-weight: 400;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form_box-cadastro a{
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: var(--green-light);
+}
+
+.btt_form-cad:hover{
+  transition: 0.5s;
+  background: var(--bottom-hover-2);
+}
+
+/*Tarefa*/
+
+.form_box-tarefa{
+  width: 461px;
+  height: 580px;
+  background: var(--bg_formbox);
+  border-radius: 15px;
+  display:flex;
+  flex-direction: column;
+  margin: auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form_box-tarefa h1{
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  color: var(--h1-color);
+  margin-left: 80px;
+}
+
+.form_box-tarefa textarea, select{
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form_box-tarefa textarea{
+  resize: none;
+  width: 400px;
+  margin:29px;
+  border: 1px solid var(--border);
+  background: var(--color-input);
+}
+
+.form_box-tarefa .btt_form-tarefa{
+  width: 239px;
+  height: 80px;
+  border: none;
+  margin-left: 106px;
+  background: var(--bottom-2);
+  color: var(--color-light);
+  font-size: 20px;
+  font-weight: 400;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form_box-tarefa a{
+  text-decoration: none;
+  text-align: center;
+  color: var(--green-dark);
+  margin-bottom:10px;
+}
+
+.erro_box{
+  background-color: var(--bg-erro);
+  color: var(--color-light);
+  padding: 5px;
+  text-align: center;
+}

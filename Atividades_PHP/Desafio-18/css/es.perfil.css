@@ -1,0 +1,60 @@
+@import url("es_global.css");
+
+body{
+  margin: 0;
+  padding: 0;
+  background: var(--bg_site);
+}
+
+.perfil_box{
+  margin: 50px auto;
+  background: var(--green-light-2);
+  width:450px;
+  height: 700px;
+  font-size:18px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border-bottom: 1px solid var(--border);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.info_box a{
+  width: 300px;
+  border-top: 1px solid var(--border);
+  text-decoration: none;
+  color: var(--green-dark);
+}
+
+.title_box{
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  color: var(--h1-color);
+  border-bottom: 1px solid var(--border);
+}
+
+.img_box img{
+  padding: 10px;
+  width: 280px;
+  margin-left: 80px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info_box{
+  text-align: center;
+}
+
+.info_box span{
+  display: block;
+  margin: 25px;
+}
+
+label{
+  color: var(--bottom-2);
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-top: 1px solid var(--border);
+}

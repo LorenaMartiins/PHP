@@ -1,0 +1,9 @@
+@import url("es_global.css");
+
+.box{
+    margin: auto;
+    text-align: center;
+    background-color: var(--bg_box);
+    padding: 10px;
+    width: max-content;
+}
